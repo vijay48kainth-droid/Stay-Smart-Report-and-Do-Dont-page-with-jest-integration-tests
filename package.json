@@ -1,0 +1,28 @@
+{
+  "name": "stay-smart-project-vue---jest",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "vue-cli-service build",
+    "start": "node server.js",
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "@vue/cli-service": "^5.0.9",
+    "@vue/compiler-sfc": "^3.5.43",
+    "core-js": "^3.50.0",
+    "express": "^5.3.0",
+    "jest": "^30.5.2",
+    "mongodb": "7.0.0",
+    "supertest": "^7.3.2",
+    "vue": "^3.5.43",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-unit-jest": "^5.0.9"
+  }
+}
